@@ -24,7 +24,6 @@ Dự án giúp mình thực hành với framework React-js, quản lý cơ sở 
 - Hosting miễn phí Vercel <br/>
 - Domain demo: <br/>
 📂 <b>Cấu trúc thư mục</b> <br/>
-## 📁 Cấu trúc thư mục
 - /public/Image: Chứa hình ảnh tĩnh của dự án <br/>
 - /src/Component/Context: Xử lý kết nối và truy vấn dữ liệu (Database/API) <br/>
 - /src/Component/Customhooks: Chứa các Custom Hooks để tái sử dụng logic <br/>
