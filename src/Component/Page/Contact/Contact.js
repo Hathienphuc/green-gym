@@ -52,6 +52,7 @@ const Contact = () => {
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
+                        title="google maps"
                     />
                     <div className="schedule-contact">
                         <div className="date-time">

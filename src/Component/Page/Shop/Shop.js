@@ -38,6 +38,7 @@ const Shop = () => {
         filterByPrice(priceRange);
     };
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         filterByPrice([PRICE_MIN, PRICE_MAX]);
     }, [arrProduct]);
@@ -50,14 +51,10 @@ const Shop = () => {
     ];
 
     const location = useLocation();
-
     const keyword = new URLSearchParams(location.search).get("search") || "";
-
-    const [searchInput, setSearchInput] = useState(keyword);
     const [searchKeyword, setSearchKeyword] = useState(keyword);
 
     useEffect(() => {
-        setSearchInput(keyword);
         setSearchKeyword(keyword);
         setCurrentPage(0);
     }, [keyword]);
@@ -69,6 +66,7 @@ const Shop = () => {
     const currentProducts = searchedProduct.slice(currentPage * PRODUCTS_PER_PAGE, (currentPage + 1) * PRODUCTS_PER_PAGE);
 
     const toastShown = useRef(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         if (product.length === 0) return;
         if (searchKeyword.trim() && searchedProduct.length === 0) {
