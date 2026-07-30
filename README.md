@@ -1,70 +1,43 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1 align="center">GREEN GYM – Website hỗ trợ đăng ký tập gym trực tuyến và bán dụng cụ tập luyện</h1>
+🎯<b>Giới thiệu</b> <br />
+GREEN GYM là website đăng ký tập gym và bán dụng cụ tập luyện trực tuyến cho phép người dùng: <br />
+- Xem & tìm kiếm sản phẩm và khóa tập nhanh <br />
+- Đăng ký khóa tập kết hợp lựa chọn địa điểm tập phù hợp <br />
+- Mua hàng & thanh toán <br />
+- Quản lý thông tin cá nhân và đơn hàng <br />
+Dự án giúp mình thực hành với framework React-js, quản lý cơ sở dữ liệu và làm việc với mockAPI thực tế. <br />
+✨ <b>Tính năng nổi bật</b> <br />
+- Đăng ký, đăng nhập <br />
+- Đổi mật khẩu <br />
+- Xem danh sách sản phẩm và khóa tập, xem chi tiết <br />
+- Tìm kiếm <br />
+- Quản lý giỏ hàng <br />
+- Đặt hàng, đăng ký khóa tập, chọn địa điểm tập luyện và thanh toán <br />
+- Quản lý thông tin cá nhân <br />
+- Xem lịch sử đơn hàng <br />
+- Responsive trên nhiều thiết bị <br />
+🛠 <b>Công nghệ sử dụng</b> <br />
+- HTML5, CSS3, Bootstrap <br />
+- React-js, mockAPI <br />
+- Thư viện hỗ trợ của React-js <br />
+🔹<b>Triển khai</b> <br/>
+- Hosting miễn phí Vercel <br/>
+- Domain demo: <br/>
+📂 <b>Cấu trúc thư mục</b> <br/>
+## 📁 Cấu trúc thư mục
+- /public/Image: Chứa hình ảnh tĩnh của dự án <br/>
+- /src/Component/Context: Xử lý kết nối và truy vấn dữ liệu (Database/API) <br/>
+- /src/Component/Customhooks: Chứa các Custom Hooks để tái sử dụng logic <br/>
+- /src/Component/Global: Chứa các component giao diện dùng chung <br/>
+- /src/Component/Page: Chứa các trang của ứng dụng <br/>
+- App.js: Component gốc của ứng dụng <br/>
+- index.js: Điểm khởi chạy ứng dụng React <br/>
+- App.css: File CSS chính <br/>
+- package.json: Khai báo thông tin dự án và các thư viện sử dụng <br/>
+🎯 <b>Kinh nghiệm học được</b> <br/>
+- Hiểu rõ vận hành và sử dụng của framework React-js <br/>
+- Làm việc với mockAPI thực tế và các thư viện hỗ trợ của React-js <br/>
+- Tối ưu giao diện và UX với Bootstrap và responsive <br/>
+- Kỹ năng triển khai website lên hosting miễn phí <br/>
+🚀 <b>Hướng phát triển tương lai</b> <br/>
+Trong tương lai sẽ tìm hiểu thêm nhiều kỹ thuật khác về công nghệ tìm kiếm bằng giọng nói để có thể nâng cấp độ thông minh, chính xác, ít bị ảnh hưởng từ môi trường nhất cho hệ thống này. Đồng thời phát triển thêm trên nền tảng ứng dụng điện thoại di động và tích hợp thêm hệ thống chatbot kết hợp nhận diện giọng nói, khuôn mặt để hỗ trợ cho khách hàng trong việc mua sắm online và có thế tập luyện trực tuyến ngay trên hệ thống Website GREEN GYM không phải mất thời gian đến câu lạc bộ.
