@@ -1,0 +1,41 @@
+.about img {
+    padding: 80px 50px 60px 50px;
+    object-fit: cover;
+}
+
+.about h2,
+.about-gym h2 {
+    font-size: 40px;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.about .gym-about,
+.about-gym p {
+    font-size: 16px;
+    color: var(--third-color);
+    font-family: var(--primary-font);
+    padding: 0 50px 80px 50px;
+    text-align: justify;
+    margin: 0;
+}
+
+.about-content {
+    align-items: center;
+}
+
+.about .about-content .img-about img {
+    object-fit: cover;
+    padding: 0 50px 80px 0;
+}
+
+.about .about-content .img-info img {
+    padding: 0 0 80px 50px;
+    object-fit: cover;
+}

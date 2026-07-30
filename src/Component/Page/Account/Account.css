@@ -1,0 +1,354 @@
+.account-wrapper {
+    padding: 80px 50px;
+}
+
+.account-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.account-wrapper ul li {
+    padding: 18px 24px;
+    background-color: var(--fourth-color);
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    transition: all 0.2s ease;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-wrapper ul li:hover {
+    background-color: var(--primary-color);
+}
+
+.account-wrapper ul li.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.account-wrapper .right-info-account {
+    background-color: var(--fourth-color);
+    padding-bottom: 20px;
+}
+
+.account-wrapper h2 {
+    font-size: 36px;
+    font-weight: 500;
+    padding: 40px 0 30px 0;
+    color: white;
+    text-align: center;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.account-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.left-account p,
+.tab-pass p {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    font-family: var(--primary-font);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left-account span:first-child,
+.tab-pass span:first-child {
+    width: 210px;
+    display: block;
+    color: var(--third-color);
+    font-weight: 600;
+}
+
+.left-account span:last-child,
+.tab-pass span:last-child {
+    font-weight: 500;
+    color: white;
+    text-align: left;
+}
+
+.right-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-account img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--third-color);
+    margin-bottom: 10px;
+}
+
+.account .right-info-account .right-account button {
+    padding: 8px 16px;
+    text-transform: none;
+    font-size: 18px;
+}
+
+.account .right-info-account .right-account button i {
+    display: none;
+}
+
+.account .right-info-account button,
+.account .right-info-pass button {
+    margin: 20px auto;
+    display: block;
+}
+
+.account-wrapper .right-info-pass {
+    background-color: var(--fourth-color);
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-info-account .history-tab {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+    gap: 20px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+.right-info-account .history-tab li {
+    border: 2px solid var(--third-color);
+    padding: 10px 20px;
+}
+
+.right-info-account .history-tab li:hover {
+    border: none;
+}
+
+.right-info-account table {
+    margin: 30px 20px;
+    width: 96%;
+    font-size: 16px;
+    vertical-align: middle;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+.right-info-account th {
+    padding: 12px 10px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: white;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    border: 2px solid var(--third-color);
+}
+
+.right-info-account td {
+    color: white;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    border: 2px solid var(--third-color);
+    text-align: center;
+    padding: 0 10px;
+}
+
+.name-cell:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 0 40px 20px;
+}
+
+.name-cell img {
+    width: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid var(--button);
+}
+
+.status-success,
+.status-cancel {
+    padding: 5px 10px;
+    border-radius: 12px;
+    background-color: #07bc0c;
+}
+
+.status-cancel {
+    background-color: #dc3545;
+}
+
+.right-info-account td button {
+    padding: 6px 10px;
+}
+
+.right-info-account td button i {
+    display: none;
+}
+
+.right-info-account td button:last-child {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.right-info-account td button:last-child::before,
+.right-info-account td button:last-child::after {
+    background-color: var(--button);
+}
+
+.account-modal .modal-content .modal-body {
+    padding: 30px 40px;
+}
+
+.account-modal .modal-header .modal-title.h4 {
+    padding-left: 20px;
+}
+
+.order-detail h3 {
+    color: var(--third-color);
+    font-size: 24px;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.order-detail-item p {
+    color: var(--button);
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.order-detail-item p:nth-child(2) span,
+.order-detail-item p:nth-child(3) span,
+.order-detail-item p:nth-child(4) span {
+    margin-left: 10px;
+}
+
+.order-detail-item p span {
+    font-weight: 600;
+    color: white;
+}
+
+.order-detail-item p:nth-child(2) i,
+.order-detail-item p:nth-child(3) i {
+    margin-right: 10px;
+}
+
+.order-detail-item .info-express {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 14px;
+}
+
+.order-detail-item .info-express i {
+    margin-top: 5px;
+    color: var(--button);
+}
+
+.order-detail-item .info-express ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--button);
+    font-size: 18px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.order-detail-item .info-express ul li span {
+    color: white;
+    font-weight: 600;
+}
+
+.order-detail-item .history-order {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.order-detail-item .history-order img {
+    width: calc(20% - 10px);
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid var(--third-color);
+}
+
+.order-detail-item .history-order .right-order {
+    width: calc(80% - 10px);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.order-detail-item .history-order .right-order p {
+    margin: 0;
+    color: white;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.order-detail-item .history-order .right-order .order-quantity {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--button);
+}
+
+.order-detail-item .history-order .right-order p:last-child {
+    text-align: right;
+    font-size: 18px;
+    color: var(--button);
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.order-detail-item .history-order .right-order p:last-child span {
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.order-detail-item button,
+.order-detail-item .noti-cancel {
+    margin: 20px 0 0 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+.order-detail-item button i {
+    display: none;
+}
+
+.order-detail-item .noti-cancel {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 24px;
+    font-family: var(--primary-font);
+}

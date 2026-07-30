@@ -1,0 +1,52 @@
+.select-club .select-club-content .select-club-item {
+    width: calc(100% / 3 - 20px);
+    border: 3px solid var(--button);
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.select-club .select-club-content .select-club-item .select-club-info {
+    border-bottom: 1px solid var(--button);
+    padding-bottom: 26px;
+}
+
+.select-club .select-club-content .select-club-item .select-club-info h2 {
+    color: white;
+    font-size: 22px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.select-club .select-club-content .select-club-item .select-club-info .select-club-address {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.select-club .select-club-content .select-club-item .select-club-info .select-club-address i {
+    color: var(--primary-color);
+    margin-top: 6px;
+}
+
+.select-club .select-club-content .select-club-item .select-club-info .select-club-address p {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color: var(--third-color);
+    margin: 0;
+    text-align: justify;
+}
+
+.select-club .select-club-content .select-club-item .select-club-tool {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select-club .select-club-content .select-club-item .select-club-tool button {
+    padding: 10px 16px;
+    width: 100%;
+}

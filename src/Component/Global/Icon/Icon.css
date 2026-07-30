@@ -1,0 +1,8 @@
+.icon p {
+    width: 26.78px;
+    height: 17.14px;
+    background-color: var(--primary-color);
+    clip-path: polygon(25% 0%, 60% 0, 35% 100%, 0% 100%);
+    display: inline-block;
+    margin: 0 -10px 0 0;
+}

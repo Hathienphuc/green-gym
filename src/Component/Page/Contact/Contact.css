@@ -1,0 +1,96 @@
+.contacts-content {
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    justify-content: space-between;
+    padding: 80px 50px 60px 50px;
+    flex-wrap: wrap;
+}
+
+.contacts-item {
+    width: calc(100% / 3);
+    border: 1px solid var(--third-color);
+}
+
+.title-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-bottom: 1px solid var(--third-color);
+    padding: 12px 0;
+}
+
+.title-contact .icon {
+    margin-top: 6px;
+}
+
+.title-contact h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.contacts-item h3 {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: var(--third-color);
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.contacts-item > p {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 10px 0;
+    font-family: var(--primary-font);
+}
+
+.contacts .map-schedule {
+    position: relative;
+    width: 100%;
+    padding: 0 50px 60px 50px;
+}
+
+.contacts .map-schedule iframe {
+    width: 100%;
+}
+
+.contacts .map-schedule .schedule-contact {
+    border-top: 2px solid var(--primary-color);
+    background-color: var(--form-color);
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    width: 20%;
+}
+
+.contacts .map-schedule .schedule-contact .date-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+}
+
+.contacts .map-schedule .schedule-contact .date-time {
+    text-align: center;
+    font-size: 14px;
+    font-family: var(--primary-font);
+    color: var(--third-color);
+    font-weight: 500;
+}
+
+.contacts .map-schedule .schedule-contact .date-time p {
+    margin: 0;
+}
+
+.contacts .map-schedule .schedule-contact .date-time span {
+    color: var(--primary-color);
+    font-weight: 600;
+}

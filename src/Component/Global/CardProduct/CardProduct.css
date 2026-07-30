@@ -1,0 +1,124 @@
+.card-shop {
+    width: calc(100% / 3 - 20px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.shop-item {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.shop-item .img-item img {
+    object-fit: cover;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--third-color);
+    transition: transform 0.5s ease;
+}
+
+.shop-item .img-item:hover img {
+    transform: scale(1.05);
+}
+
+.shop-item .info-item {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.shop-item .info-item h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-weight: 500;
+}
+
+.shop-item .info-item h3:hover {
+    color: var(--primary-color);
+}
+
+.shop-item .star {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.shop-item .price-pro {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-shop button {
+    width: 100%;
+    padding: 12px 0;
+}
+
+.card-shop button i {
+    display: none;
+}
+
+.custom-toast {
+    width: 100%;
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+}
+
+.custom-toast .toast-header {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.custom-toast .toast-body {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.custom-toast .toast-body img {
+    width: calc(30% - 10px);
+    object-fit: cover;
+    border: 1px solid var(--third-color);
+    border-radius: 10px;
+}
+
+.custom-toast .product-info {
+    width: calc(70% - 10px);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.custom-toast .product-name {
+    font-size: 14px;
+    margin: 0;
+}
+
+.custom-toast .product-price {
+    font-size: 13px;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.card-shop .stock-card {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: var(--primary-font);
+}

@@ -1,0 +1,33 @@
+.heading-title {
+    background-image: url("../../../../public/Image/Heading.png");
+    background-size: cover;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.heading-content h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.heading-content p {
+    font-size: 20px;
+    font-family: var(--primary-font);
+    margin: 20px 0 0 0;
+    font-weight: 500;
+}
+
+.heading-content p a,
+.heading-content p a span {
+    color: white;
+}
+
+.heading-content p .breadcrumbs {
+    color: var(--primary-color);
+}

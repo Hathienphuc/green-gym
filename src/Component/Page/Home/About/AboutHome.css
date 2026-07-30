@@ -1,0 +1,128 @@
+.about-home {
+    padding: 24px 0;
+}
+
+.about-home .about-content {
+    align-items: center;
+    padding: 0 50px;
+}
+
+.about-content .image-about {
+    position: relative;
+    padding-bottom: 80%;
+}
+
+.about-content .image-about::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--secondary-color);
+    clip-path: polygon(0 0, 76% 0, 100% 100%, 0% 100%);
+}
+
+.about-content .image-about img {
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    transform: translate(-8% -10%);
+    z-index: 1;
+    width: 90%;
+    animation: upDown 2s ease-in-out infinite;
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.about-content .info-about {
+    padding-left: 20px;
+}
+
+.about-content .info-about h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.about-content .info-about p {
+    color: var(--third-color);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-family: var(--rpimary-font-);
+}
+
+@media (max-width: 1200px) {
+    .about-home .about-content {
+        padding: 0px 26px;
+    }
+}
+
+@media (max-width: 1148px) {
+    .about-content .info-about h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .about-content .info-about {
+        padding: 24px 0 0 0;
+    }
+}
+
+@media (max-width: 488px) {
+    .about-content .info-about h2 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 468px) {
+    .about-content .info-about h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 448px) {
+    .about-content .info-about h2 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 412px) {
+    .about-content .info-about h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 375px) {
+    .about-content .info-about h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 356px) {
+    .about-content .info-about h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 338px) {
+    .about-content .info-about h2 {
+        font-size: 22px;
+    }
+}

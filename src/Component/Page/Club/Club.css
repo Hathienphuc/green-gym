@@ -1,0 +1,89 @@
+.club-content {
+    padding: 60px 50px;
+}
+
+.club-content h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.club-content p {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: var(--third-color);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.club-content .sort-club {
+    margin: 0 auto 40px auto;
+    width: 30%;
+}
+
+.club-content .select-district__control {
+    border: 1px solid var(--button);
+    font-size: 16px;
+    background-color: var(--fourth-color);
+    width: 100%;
+    color: white;
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.club-content .select-district__input {
+    color: white !important;
+}
+
+.club-content .select-district__control--is-focused {
+    box-shadow: 0 0 0 1px var(--third-color);
+}
+
+.club-content .select-district__control:hover {
+    border-color: var(--third-color);
+}
+
+.club-content .select-district__menu {
+    background-color: var(--fourth-color);
+    color: white;
+}
+
+.club-content .select-district__option--is-focused {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.club-content .select-district__option--is-selected {
+    background-color: transparent;
+}
+
+.club-content .select-district__option:active {
+    background-color: var(--primary-color);
+}
+
+.club-content .select-district__single-value {
+    color: white;
+}
+
+.select-district__dropdown-indicator {
+    transition: transform 0.3s ease;
+}
+
+.select-district__control--menu-is-open .select-district__dropdown-indicator {
+    transform: rotate(180deg);
+}
+
+.club-content .list-club {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}

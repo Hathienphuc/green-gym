@@ -1,0 +1,77 @@
+.coach-item {
+    position: relative;
+    overflow: hidden;
+    width: calc(100% / 3 - 20px);
+}
+
+.coach-item img {
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid var(--button);
+}
+
+.info-coach {
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(11.09843px);
+    text-align: left;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    transform: translateX(100%);
+    opacity: 0;
+    border-left: 4px solid var(--primary-color);
+    padding: 12px 20px;
+    display: block;
+    width: 90%;
+}
+
+.coach-item:hover .info-coach {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.info-coach p {
+    font-size: 13px;
+    margin: 0;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.info-coach h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    color: white;
+    margin-top: 5px;
+}
+
+.social-coach {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.4s ease;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 12px 10px 32px 10px;
+    justify-content: center;
+}
+
+.social-coach i {
+    color: white;
+    font-size: 14px;
+}
+
+.coach-item:hover .social-coach {
+    opacity: 1;
+    transform: translateX(0);
+}

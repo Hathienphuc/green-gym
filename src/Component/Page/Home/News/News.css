@@ -1,0 +1,25 @@
+.news {
+    background-image: url("../../../../../public/Image/News.png");
+    background-size: cover;
+    padding: 80px 50px 40px 50px;
+}
+
+.news h2 {
+    font-size: 60px;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.list-news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}

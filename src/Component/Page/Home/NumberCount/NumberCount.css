@@ -1,0 +1,53 @@
+.number-count {
+    background-color: var(--primary-color);
+}
+
+.number-count .number-content {
+    padding: 0 50px;
+    align-items: center;
+}
+
+.number-count .number-content .item {
+    text-align: center;
+    padding: 32px 0;
+}
+
+.number-count .number-content .item .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+.number-count .number-content .item .title .icon p {
+    background-color: white;
+}
+
+.number-count .number-content .item .title h3 {
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.number-count .number-content .item p {
+    color: white;
+    font-size: 60px;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1132px) {
+    .number-count .number-content .item .title .icon p {
+        width: 18.75px;
+        height: 12px;
+    }
+
+    .number-count .number-content .item .title h3 {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,66 @@
+.blog-content {
+    padding: 80px 50px 60px 50px;
+}
+
+.blog-content .list-blog {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.blog-content .list-blog .card-news {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--third-color);
+}
+
+.blog-content .list-blog .not-found-blog {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.blog-content .list-blog .card-news .right-news h3 {
+    font-size: 18px;
+}
+
+.blog-content .list-blog .card-news .right-news p:first-child {
+    font-size: 14px;
+}
+
+.blog-content .list-blog .card-news .right-news .athletic {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.blog-content .list-blog .pagination-container {
+    flex-basis: 100%;
+    margin: 20px auto 0 auto;
+}
+
+.blog-content .sort-content {
+    position: relative;
+}
+
+.blog-content .sort-content input[type="text"] {
+    width: 100%;
+    background-color: var(--secondary-color);
+    margin-bottom: 20px;
+    padding: 10px 0 10px 16px;
+    border: 1px solid var(--third-color);
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    color: var(--third-color);
+}
+
+.blog-content .sort-content i {
+    position: absolute;
+    top: 2%;
+    color: var(--third-color);
+    transform: translateY(-2%);
+    right: 0;
+    font-size: 18px;
+    padding: 13px;
+    background-color: var(--primary-color);
+    color: white;
+}

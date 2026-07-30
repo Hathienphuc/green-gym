@@ -1,0 +1,146 @@
+.modal-content {
+    background-color: var(--form-color);
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--button);
+}
+
+.modal-header .modal-title.h4 {
+    font-size: 28px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    color: white;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+    margin-top: -40px;
+}
+
+.modal-header .btn-close::before,
+.modal-header .btn-close::after {
+    display: none;
+}
+
+.modal-body .form-label {
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.modal-body input,
+.modal-body select {
+    background-color: var(--fourth-color);
+    border-radius: 0;
+    border: 1px solid var(--button);
+    color: white;
+}
+
+.modal-body input::placeholder {
+    color: var(--button);
+}
+
+.modal-body input:focus,
+.modal-body select:focus {
+    background-color: var(--fourth-color);
+    border-color: var(--button);
+    color: white;
+    box-shadow: var(--button);
+}
+
+.pass {
+    position: relative;
+}
+
+.pass i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.modal-body .btn.btn-primary {
+    width: 100%;
+    border-radius: 0;
+    background-color: var(--primary-color);
+    border: none;
+    margin: 20px 0 10px 0;
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+.modal-body .btn.btn-primary::after,
+.modal-body .btn.btn-primary::before {
+    background-color: var(--button);
+}
+
+.text-center.mt-3 p {
+    color: white;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.text-center.mt-3 p span {
+    color: var(--primary-color);
+}
+
+.text-danger {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.mb-3 .select-gender__input {
+    color: white !important;
+}
+
+.mb-3 .select-gender__control {
+    background-color: var(--fourth-color) !important;
+    border: 1px solid var(--button);
+    color: white;
+    border-radius: 0;
+}
+
+.mb-3 .select-gender__control--is-focused {
+    box-shadow: 0 0 0 1px var(--third-color) !important;
+}
+
+.mb-3 .select-gender__control:hover {
+    border-color: var(--third-color) !important;
+}
+
+.mb-3 .select-gender__menu {
+    background-color: var(--fourth-color) !important;
+    color: white;
+    border-radius: 0;
+}
+
+.mb-3 .select-gender__option--is-focused {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.mb-3 .select-gender__option--is-selected {
+    background-color: var(--fourth-color) !important;
+    color: white !important;
+}
+
+.mb-3 .select-gender__option:active {
+    background-color: var(--primary-color) !important;
+}
+
+.mb-3 .select-gender__single-value {
+    color: white !important;
+}
+
+.select-gender__dropdown-indicator {
+    transition: transform 0.3s ease;
+}
+
+.select-gender__control--menu-is-open .select-gender__dropdown-indicator {
+    transform: rotate(180deg);
+}

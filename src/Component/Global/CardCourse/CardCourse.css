@@ -1,0 +1,144 @@
+.card-product {
+    background-color: var(--fourth-color);
+    overflow: hidden;
+    color: white;
+    font-family: var(--primary-font);
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 20px);
+}
+
+.card-product .img-course {
+    position: relative;
+}
+
+.card-product .img-course img {
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card-product .img-course:hover img {
+    transform: scale(1.05);
+}
+
+.card-product .img-course:hover .label {
+    left: -100%;
+}
+
+.card-product .img-course .label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding: 8px 0;
+    font-size: 14px;
+    transition: left 0.5s ease;
+}
+
+.info-card {
+    padding: 24px 16px 32px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.info-card h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-weight: 500;
+}
+
+.info-card h3:hover {
+    color: var(--primary-color);
+}
+
+.icon-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-item i {
+    color: var(--third-color);
+    font-size: 16px;
+}
+
+.icon-item p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--third-color);
+}
+
+.icon-item p span {
+    color: white;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background-color: var(--button);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.progress-container .progress-bar {
+    height: 100%;
+    background-color: var(--primary-color);
+}
+
+.coach {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--fourth-color);
+    padding: 24px 8px 22px 8px;
+    border-top: 1px solid var(--secondary-color);
+    flex-wrap: wrap;
+}
+
+.info-coach-card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--primary-font);
+}
+
+.info-coach-card img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: none;
+}
+
+.info-coach-card h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.info-coach-card .position {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--third-color);
+    margin: 0;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}

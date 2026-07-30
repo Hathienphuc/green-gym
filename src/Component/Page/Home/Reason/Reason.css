@@ -1,0 +1,319 @@
+.reason-content {
+    padding: 80px 50px;
+}
+
+.reason-content .reason-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.reason-content .reason-title {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 70%;
+    transform: translateX(-70%);
+}
+
+.reason-content .reason-title h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin-top: 24px;
+}
+
+.reason-content .video-left {
+    position: relative;
+    width: 40%;
+    overflow: hidden;
+}
+
+.reason-content .video-left video {
+    width: 100%;
+    object-fit: cover;
+}
+
+.reason-content .reason-center {
+    position: absolute;
+    top: 26%;
+    left: 54%;
+    transform: translateX(-54%);
+    background-color: var(--fourth-color);
+    padding: 64px 44px 63px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+    justify-content: center;
+    width: 40%;
+}
+
+.reason-content .reason-center:hover {
+    background-color: var(--primary-color);
+}
+
+.reason-content .reason-center i {
+    font-size: 50px;
+}
+
+.reason-content .reason-center h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin-top: 10px;
+}
+
+.reason-content .reason-center p {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.reason-content .reason-list {
+    margin-left: auto;
+}
+
+.reason-content .reason-list ul {
+    list-style: none;
+}
+
+.reason-content .reason-list ul li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    border-bottom: 1px solid var(--third-color);
+    padding: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.reason-content .reason-list ul li i {
+    font-size: 20px;
+    color: white;
+    background-color: var(--fourth-color);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.reason-content .reason-list ul li h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    color: white;
+    text-transform: uppercase;
+}
+
+.reason-content .reason-list ul li i,
+.reason-content .reason-list ul li h4 {
+    transition: color 0.3s ease;
+}
+
+.reason-content .reason-list ul li:hover,
+.reason-content .reason-list ul li.active {
+    border: none;
+}
+
+.reason-content .reason-list ul li:hover i,
+.reason-content .reason-list ul li.active i {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.reason-content .reason-list ul li:hover h4,
+.reason-content .reason-list ul li.active h4 {
+    color: var(--primary-color);
+}
+
+.reason-content .reason-list ul li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: var(--primary-color);
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.reason-content .reason-list ul li:hover::after,
+.reason-content .reason-list ul li.active::after {
+    transform: translateX(0);
+}
+
+@media (max-width: 1372px) {
+    .reason-content .reason-title h2 {
+        font-size: 38px;
+    }
+
+    .reason-content .reason-center {
+        top: 23%;
+        left: 52%;
+    }
+}
+
+@media (max-width: 1316px) {
+    .reason-content .reason-title h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 1256px) {
+    .reason-content .reason-title h2 {
+        font-size: 34px;
+    }
+
+    .reason-content .reason-center {
+        top: 20%;
+        left: 48%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .reason-content {
+        padding: 80px 26px;
+    }
+}
+
+@media (max-width: 1252px) {
+    .reason-content .reason-title h2 {
+        font-size: 32px;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 1094px) {
+    .reason-content .reason-title h2 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .reason-content .reason-center {
+        top: 17%;
+        left: 46%;
+    }
+}
+
+@media (max-width: 1036px) {
+    .reason-content .reason-title h2 {
+        font-size: 28px;
+    }
+
+    .reason-content .reason-center {
+        top: 15%;
+    }
+
+    .reason-content .reason-list ul li h4 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .reason-content .reason-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .reason-content .reason-title {
+        position: relative;
+        left: 70%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .reason-content .reason-title h2 {
+        font-size: 40px;
+        margin: 18px 0 24px 0;
+    }
+
+    .reason-content .video-left {
+        width: 100%;
+    }
+
+    .reason-content .reason-center {
+        top: 1%;
+        left: 54%;
+        position: relative;
+        width: 100%;
+    }
+
+    .reason-content .reason-list {
+        width: 100%;
+        margin: 30px 0 0 0;
+    }
+
+    .reason-content .reason-list ul li h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 458px) {
+    .reason-content .reason-title h2 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 440px) {
+    .reason-content .reason-title h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 424px) {
+    .reason-content .reason-title h2 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 407px) {
+    .reason-content .reason-title h2 {
+        font-size: 32px;
+    }
+
+    .reason-content .reason-list ul li {
+        gap: 10px;
+    }
+
+    .reason-content .reason-list ul li h4 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 388px) {
+    .reason-content .reason-title h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 364px) {
+    .reason-content .reason-title h2 {
+        font-size: 26px;
+    }
+
+    .reason-content .reason-list ul li {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 338px) {
+    .reason-content .reason-title h2 {
+        font-size: 24px;
+    }
+
+    .reason-content .reason-list ul li h4 {
+        text-align: center;
+    }
+}

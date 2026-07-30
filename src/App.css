@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    --primary-color: #ff4d24;
+    --secondary-color: #000000;
+    --third-color: #9a9a9a;
+    --fourth-color: #373536;
+    --form-color: #292628;
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "Anton", sans-serif;
+    --button: #676767;
+    background-color: var(--form-color);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}

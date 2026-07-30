@@ -1,0 +1,20 @@
+.list-coach {
+    display: flex;
+    align-items: center;
+    padding: 80px 50px 60px 50px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-coach h2 {
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-size: 40px;
+    width: calc(100% / 3 - 20px);
+}
