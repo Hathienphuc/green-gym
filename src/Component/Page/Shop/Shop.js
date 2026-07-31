@@ -38,9 +38,9 @@ const Shop = () => {
         filterByPrice(priceRange);
     };
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         filterByPrice([PRICE_MIN, PRICE_MAX]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [arrProduct]);
 
     const options = [
@@ -66,7 +66,6 @@ const Shop = () => {
     const currentProducts = searchedProduct.slice(currentPage * PRODUCTS_PER_PAGE, (currentPage + 1) * PRODUCTS_PER_PAGE);
 
     const toastShown = useRef(false);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         if (product.length === 0) return;
         if (searchKeyword.trim() && searchedProduct.length === 0) {
@@ -79,6 +78,7 @@ const Shop = () => {
         } else {
             toastShown.current = false;
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [searchedProduct, searchKeyword]);
 
     useAOS({

@@ -3,7 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const useAOS = (option = {}) => {
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         AOS.init(option);
         const handleScroll = () => {
@@ -11,6 +10,7 @@ const useAOS = (option = {}) => {
         };
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 };
 

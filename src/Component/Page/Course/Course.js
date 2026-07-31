@@ -42,9 +42,9 @@ const Course = () => {
         filterByPrice(priceRange);
     };
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         filterByPrice([PRICE_MIN, PRICE_MAX]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [arrCourse]);
 
     const options = [
