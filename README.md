@@ -5,7 +5,7 @@ GREEN GYM là website đăng ký tập gym và bán dụng cụ tập luyện tr
 - Đăng ký khóa tập kết hợp lựa chọn địa điểm tập phù hợp <br />
 - Mua hàng & thanh toán <br />
 - Quản lý thông tin cá nhân và đơn hàng <br />
-Dự án giúp mình thực hành với framework React-js, quản lý cơ sở dữ liệu và làm việc với mockAPI thực tế. <br />
+Dự án giúp mình thực hành với framework ReactJS, quản lý cơ sở dữ liệu và làm việc với MockAPI thực tế. <br />
 ✨ <b>Tính năng nổi bật</b> <br />
 - Đăng ký, đăng nhập <br />
 - Đổi mật khẩu <br />
@@ -18,11 +18,11 @@ Dự án giúp mình thực hành với framework React-js, quản lý cơ sở 
 - Responsive trên nhiều thiết bị <br />
 🛠 <b>Công nghệ sử dụng</b> <br />
 - HTML5, CSS3, Bootstrap <br />
-- React-js, mockAPI <br />
-- Thư viện hỗ trợ của React-js <br />
+- ReactJS, MockAPI, EmailJS <br />
+- Thư viện hỗ trợ của ReactJS <br />
 🔹<b>Triển khai</b> <br/>
 - Hosting miễn phí Vercel <br/>
-- Domain demo: https://green-gym-cyan.vercel.app/ <br/>
+- Domain demo: https://green-gym-cyan.vercel.app <br/>
 📂 <b>Cấu trúc thư mục</b> <br/>
 - /public/Image: Chứa hình ảnh tĩnh của dự án <br/>
 - /src/Component/Context: Xử lý kết nối và truy vấn dữ liệu (Database/API) <br/>
@@ -34,8 +34,8 @@ Dự án giúp mình thực hành với framework React-js, quản lý cơ sở 
 - App.css: File CSS chính <br/>
 - package.json: Khai báo thông tin dự án và các thư viện sử dụng <br/>
 🎯 <b>Kinh nghiệm học được</b> <br/>
-- Hiểu rõ vận hành và sử dụng của framework React-js <br/>
-- Làm việc với mockAPI thực tế và các thư viện hỗ trợ của React-js <br/>
+- Hiểu rõ vận hành và sử dụng của framework ReactJS <br/>
+- Làm việc với MockAPI thực tế và các thư viện hỗ trợ của ReactJS <br/>
 - Tối ưu giao diện và UX với Bootstrap và responsive <br/>
 - Kỹ năng triển khai website lên hosting miễn phí <br/>
 🚀 <b>Hướng phát triển tương lai</b> <br/>
