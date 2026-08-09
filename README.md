@@ -21,7 +21,7 @@ Dự án giúp mình thực hành với framework ReactJS, quản lý cơ sở d
 - ReactJS, MockAPI, EmailJS <br />
 - Thư viện hỗ trợ của ReactJS <br />
 🔹<b>Triển khai</b> <br/>
-- Hosting miễn phí Vercel <br/>
+- Hosting miễn phí: Vercel <br/>
 - Domain demo: https://green-gym-cyan.vercel.app <br/>
 📦<b>Quản lý source code</b> <br/>
 - Git & Github <br/>
