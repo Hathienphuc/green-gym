@@ -24,7 +24,7 @@ Dự án giúp mình thực hành với framework ReactJS, quản lý cơ sở d
 - Hosting miễn phí Vercel <br/>
 - Domain demo: https://green-gym-cyan.vercel.app <br/>
 📦<b>Quản lý source code</b> <br/>
-- Git & Github
+- Git & Github <br/>
 📂 <b>Cấu trúc thư mục</b> <br/>
 - /public/Image: Chứa hình ảnh tĩnh của dự án <br/>
 - /src/Component/Context: Xử lý kết nối và truy vấn dữ liệu (Database/API) <br/>
